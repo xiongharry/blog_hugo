@@ -1,8 +1,7 @@
 baseurl = "http://xiongharry.github.io/"
 languageCode = "zh-cn"
 title = "小熊谷听"
---theme = "greyshade"
-theme = "air"
+theme = "hugo-geo"
 Paginate = 10
 
 [author]
@@ -14,3 +13,37 @@ email = "xiongharry@gmail.com"
     jescription = "小熊谷听"
     github_user = "xiongharry"
     excerpt_link = "[阅读全文]"
+
+#[taxonomies]
+#	tag = "tags"
+#	tutorial = "tutorials"
+
+[params]
+	# Render the rotating globe in the sidebar
+	showglobe = true
+ 	
+	# Google Analytics
+	# analytics = "SHORT-CODE-HERE"
+
+	# Social buttons for sidebar
+	github = "https://github.com/xiongharry"
+	twitter = "https://twitter.com/xiongharry"
+	# linkedin = "https://linkedin.com"
+	# email = "xionghary@gmail.com"
+	
+	# Sidebar profile picture
+	# profilepic = "img/smugmug.jpg"
+	
+	# Title/subtitle for the sidebar
+	title = "Harry Xiong"
+	subtitle = "Play"
+	
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "关于"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "博客"
+	url = "post/"
+	
