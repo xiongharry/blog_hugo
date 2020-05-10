@@ -1,8 +1,9 @@
 baseurl = "http://xiongharry.github.io/"
 languageCode = "zh-cn"
-title = "小熊谷听"
+title = "小熊 Harry"
 theme = "hugo-geo"
 Paginate = 10
+publishDir = "docs"
 
 [author]
 name = "Harry"
@@ -10,7 +11,7 @@ email = "xiongharry@gmail.com"
 
 [programs]
     githubName = "xiongharry"
-    jescription = "小熊谷听"
+    jescription = "小熊"
     github_user = "xiongharry"
     excerpt_link = "[阅读全文]"
 
