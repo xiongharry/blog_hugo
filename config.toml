@@ -3,7 +3,6 @@ languageCode = "zh-cn"
 title = "小熊 Harry"
 theme = "hugo-geo"
 Paginate = 10
-publishDir = "docs"
 
 [author]
 name = "Harry"
